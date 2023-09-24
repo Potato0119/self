@@ -229,7 +229,7 @@ header img {
 /* mobile-nav */
 
 /* RWD */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   header img {
     position: absolute;
     transform: translate(-50%, 0);
@@ -245,7 +245,7 @@ header img {
     visibility: hidden;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1001px) {
   .mobile-nav,
   i {
     visibility: hidden;
