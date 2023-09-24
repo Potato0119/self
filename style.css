@@ -232,6 +232,34 @@ header img {
 }
 /* mobile-nav */
 
+/* 第一畫面(主畫面) */
+.planet {
+  width: 470px;
+  height: 500px;
+  position: absolute;
+  right: 50px;
+  bottom: 0px;
+}
+.title {
+  position: absolute;
+  bottom: 20px;
+  left: 5vw;
+  font-weight: 900;
+  color: #6f6f6f;
+}
+.title-1 {
+  font-size: 3.8vw;
+  display: inline-block;
+  color: #fff;
+}
+.title-2 {
+  font-size: 2.7vw;
+  display: inline-block;
+}
+.title-3 {
+  font-size: 2.75vw;
+}
+/* 第一畫面(主畫面) */
 /* RWD */
 @media (max-width: 1000px) {
   header img {
