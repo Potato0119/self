@@ -168,12 +168,7 @@ header a:hover {
   padding: 4.4px;
 }
 header img {
-  position: absolute;
-  transform: translate(-50%, 0);
-  top: 0;
-  left: 50%;
-  width: 237.3px;
-  height: 40px;
+  padding-right: 6px;
 }
 .title-image {
   position: absolute;
