@@ -234,11 +234,7 @@ header img {
 /* mobile-nav */
 
 /* RWD */
-<<<<<<< HEAD
 @media (max-width: 1000px) {
-=======
-@media (min-width: 769px) {
->>>>>>> 357afe1404e535937d9ea4bec439ff9fc11ad5aa
   header img {
     position: absolute;
     transform: translate(0, 0);
@@ -254,13 +250,10 @@ header img {
     visibility: hidden;
   }
 }
-<<<<<<< HEAD
 @media screen and (min-width: 1001px) {
   .mobile-nav,
   i {
     visibility: hidden;
   }
 }
-=======
->>>>>>> 357afe1404e535937d9ea4bec439ff9fc11ad5aa
 /* RWD */
