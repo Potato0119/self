@@ -1,40 +1,26 @@
-function list() {
-  //選單 主部分(圖標)
-  document.querySelector("#nav").style = "visibility: hidden;";
-  document.querySelector("#error").style = "visibility: visible;";
-
-  //選單 選單部分(li)
-  setTimeout(() => {
-    document.querySelector(".li1").style = "visibility: visible;opacity: 1;";
-  }, 200);
-  setTimeout(() => {
-    document.querySelector(".li2").style = "visibility: visible;opacity: 1;";
-  }, 400);
-  setTimeout(() => {
-    document.querySelector(".li3").style = "visibility: visible;opacity: 1;";
-  }, 600);
-  setTimeout(() => {
-    document.querySelector(".li4").style = "visibility: visible;opacity: 1;";
-  }, 800);
+function isMobileDevice() {
+  let mobileDevices = [
+    "Android",
+    "webOS",
+    "iPhone",
+    "iPad",
+    "iPod",
+    "BlackBerry",
+    "Windows Phone",
+  ];
+  for (var i = 0; i < mobileDevices.length; i++) {
+    if (navigator.userAgent.match(mobileDevices[i])) {
+      return true;
+    }
+  }
+  return false;
 }
-function back() {
-  //選單 主部分(圖標)
-  document.querySelector("#nav").style = "visibility: visible;";
-  document.querySelector("#error").style = "visibility: hidden;";
 
-  //選單 選單部分(li)
-  document.querySelector(".li1").style = "opacity: 0;";
-  document.querySelector(".li2").style = "opacity: 0;";
-  document.querySelector(".li3").style = "opacity: 0;";
-  document.querySelector(".li4").style = "opacity: 0;";
-  setTimeout(() => {
-    document.querySelector(".li1").style = "opacity: 0;";
-    document.querySelector(".li2").style = "opacity: 0;";
-    document.querySelector(".li3").style = "opacity: 0;";
-    document.querySelector(".li4").style = "opacity: 0;";
-    document.querySelector(".li1").style = "visibility: hidden;";
-    document.querySelector(".li2").style = "visibility: hidden;";
-    document.querySelector(".li3").style = "visibility: hidden;";
-    document.querySelector(".li4").style = "visibility: hidden;";
-  }, 800);
+if (isMobileDevice()) {
+  document.querySelector("header img").style =
+    "position: absolute;transform: translate(-50%, 0);top: 0;left: 50%;width: 237.3px;height: 40px;";
+  document.querySelector(".mobile-nav").style = "visibility: visible;";
+  document.querySelector("header a").style = "visibility: hidden;";
+} else {
+  console.log("not mobile device");
 }
