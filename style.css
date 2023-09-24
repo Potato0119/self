@@ -138,7 +138,7 @@ body {
   background-image: linear-gradient(
     to bottom,
     #1e1e1e 0px,
-    #1e1e1e 60px,
+    #1e1e1e 80px,
     transparent 150px
   );
   z-index: -1;
@@ -154,6 +154,8 @@ header {
 header img {
   width: 356px;
   height: 60px;
+  padding-top: 5px;
+  padding-left: 5px;
 }
 header a {
   display: flex;
@@ -192,7 +194,8 @@ header img {
   right: 0;
   top: 0;
   background-color: #fff;
-  border: #5e5e5e 5px solid;
+  border: #444 5px solid;
+  box-shadow: 0 0 35px 0 #e0e5e8;
   border-radius: 20px;
 }
 .icon-nav a {
@@ -235,8 +238,6 @@ header img {
     transform: translate(-50%, -0);
     top: 0;
     left: 50%;
-    width: 237.3px;
-    height: 40px;
   }
   .mobile-nav {
     visibility: visible;
