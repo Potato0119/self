@@ -232,9 +232,9 @@ header img {
 @media (max-width: 1000px) {
   header img {
     position: absolute;
-    transform: translate(0, 0);
+    transform: translate(-50%, -0);
     top: 0;
-    left: 0;
+    left: 50%;
     width: 237.3px;
     height: 40px;
   }
