@@ -240,6 +240,13 @@ header img {
   right: 10px;
   bottom: 0px;
 }
+.boy {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  right: 120px;
+  bottom: 200px;
+}
 .title {
   position: absolute;
   bottom: 20px;
