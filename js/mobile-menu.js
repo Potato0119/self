@@ -16,9 +16,6 @@ function list() {
   setTimeout(() => {
     document.querySelector(".li4").style = "visibility: visible;opacity: 1;";
   }, 800);
-  setTimeout(() => {
-    document.querySelector(".li5").style = "visibility: visible;opacity: 1;";
-  }, 1000);
 }
 function back() {
   //選單 主部分(圖標)
@@ -30,7 +27,6 @@ function back() {
   document.querySelector(".li2").style = "opacity: 0;";
   document.querySelector(".li3").style = "opacity: 0;";
   document.querySelector(".li4").style = "opacity: 0;";
-  document.querySelector(".li5").style = "opacity: 0;";
   setTimeout(() => {
     document.querySelector(".li1").style = "opacity: 0;";
     document.querySelector(".li2").style = "opacity: 0;";
@@ -40,6 +36,5 @@ function back() {
     document.querySelector(".li2").style = "visibility: hidden;";
     document.querySelector(".li3").style = "visibility: hidden;";
     document.querySelector(".li4").style = "visibility: hidden;";
-    document.querySelector(".li5").style = "visibility: hidden;";
   }, 1000);
 }
