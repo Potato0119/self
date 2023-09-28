@@ -19,22 +19,23 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body onload="run()">
+  <body id="home" onload="run()">
+    <!-- 第一畫面(主畫面) -->
     <img src="image/tl.png" class="title-image" />
     <header>
       <img class="img" src="image/header.png" />
-      <a class="">首頁</a>
-      <a class="">關於我</a>
-      <a class="">關於網站</a>
-      <a class="">作品集</a>
+      <a href="#home">首頁</a>
+      <a href="#about">關於我</a>
+      <a href="">關於網站</a>
+      <a href="">作品集</a>
     </header>
 
     <div class="mobile-nav">
       <div class="icon-nav">
         <a onclick="list()" id="nav"><i class="fa-solid fa-bars fa-2xl"></i></a>
-        <a onclick="back()" id="error"
-          ><i class="fa-solid fa-xmark fa-2xl"></i
-        ></a>
+        <a onclick="back()" id="error">
+          <i class="fa-solid fa-xmark fa-2xl"></i>
+        </a>
       </div>
       <nav class="mob-nav">
         <ul>
@@ -60,7 +61,7 @@
 
     <div class="title">
       <p class="title-1">施心棠的個人網站</p>
-      <p class="title-2">目前版本: 0.5.4</p>
+      <p class="title-2">目前版本: 0.6.0/p></p>
       <p class="title-3">開發這個網站是因為 華江高中的自主學習計畫</p>
     </div>
 
@@ -70,7 +71,37 @@
       <p class="mainp">網站技術突破</p>
     </div>
     <div class="body"><!--背景漸層--></div>
+    <!-- 第一畫面(主畫面) -->
+
+    <!-- 第二畫面(關於我) -->
+    <div id="about" class="about">
+      <div class="aboutdiv">
+        <span class="about-span">
+          <span class="about-span1" style="text-align: center; display: block">
+            <p>關於我</p>
+            <a target="_blank" href="https://www.instagram.com/potato_0119_/">
+              <img src="image/ig.png" />
+            </a>
+            <a target="_blank" href="https://github.com/Potato0119">
+              <img src="image/github.png" />
+            </a>
+          </span>
+          <span class="about-span2">
+            <p>華江高中112&nbsp;&nbsp;&nbsp;&nbsp;INTJ-T</p>
+            <p>
+              常玩遊戲: Microsoft Flight Simulator, Ready Or Not, Minecraft, GTA
+              V
+            </p>
+            <p>程式語言:Python, HTML5</p>
+            <p title="但現在在用電腦寫程式">希望我可以好好讀書 放下電腦</p>
+          </span>
+        </span>
+      </div>
+    </div>
+    <!-- 第二畫面(關於我) -->
+    <!-- Java Script -->
     <script src="js/mobile-menu.js"></script>
     <script src="js/script.js"></script>
+    <!-- Java Script -->
   </body>
 </html>
