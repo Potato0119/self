@@ -2,6 +2,9 @@
   font-family: "NotoSans";
   src: url("../other/NotoSansTC-VariableFont_wght.ttf");
 }
+::-webkit-scrollbar {
+  display: none;
+}
 /* body */
 body {
   background: #1e1e1e;
