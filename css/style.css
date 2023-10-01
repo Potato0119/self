@@ -255,6 +255,7 @@ header img {
   padding-left: 12.5px;
   padding-right: 12.5px;
   transition: transform 200ms ease-in-out;
+  cursor: pointer;
 }
 .about-span1 img:hover {
   transform: scale(1.5);
