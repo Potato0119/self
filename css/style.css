@@ -276,6 +276,59 @@ header img {
 }
 /* 第二畫面(關於我) */
 
+/* 第三畫面(關於網站) */
+.about-web {
+  position: absolute;
+  top: 200%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.ab-web-header {
+  width: 100%;
+  height: 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ab-web-header p {
+  text-shadow: 0 0 20px #fff;
+  font-size: 30px;
+  color: #eee;
+}
+.abweb {
+  width: 100%;
+  height: 30%;
+}
+.abweb div {
+  display: inline-block;
+  font-size: 2.5vw;
+  color: #effaf2;
+  text-shadow: 0 0 20px #0ae6af;
+}
+.abweb-p-title {
+  font-size: 5vw;
+  color: #cadcff;
+  text-shadow: 0 0 20px #0aafe6;
+}
+.abweb div p {
+  display: inline-block;
+}
+.web-left div {
+  margin-left: 20px;
+  padding-top: 50px;
+}
+.web-right div {
+  margin-right: 20px;
+  text-align: right;
+  padding-top: 50px;
+}
+.web-right {
+  text-align: right;
+}
+/* 第三畫面(關於網站) */
+
 /* RWD */
 @media (max-width: 1199px) {
   header img {
