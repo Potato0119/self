@@ -32,13 +32,23 @@
   </head>
   <body id="home" onload="run()">
     <!-- header -->
-    <nav>
+    <nav class="nav-pc">
       <img class="img" src="image/header.png" />
+      <ul class="nav-ul">
+        <li><a href="#home">首頁</a></li>
+        <li><a href="#about">關於我</a></li>
+        <li><a href="#about-web">關於網站</a></li>
+        <li><a href="">作品集</a></li>
+      </ul>
+    </nav>
+
+    <nav class="nav-mobile">
+      <img class="img2" src="image/header.png" />
       <input type="checkbox" style="display: none" class="check" id="check" />
       <label for="check">
         <i class="fa-solid fa-bars fa-2xl menuicon"></i>
       </label>
-      <ul class="nav-ul">
+      <ul class="nav-ul-mobile">
         <li><a href="#home">首頁</a></li>
         <li><a href="#about">關於我</a></li>
         <li><a href="#about-web">關於網站</a></li>
@@ -52,11 +62,11 @@
 
     <div class="talkdiv"><p>網站正在載入 請稍後</p></div>
     <img src="image/planet.png" class="planet" />
-    <img src="image/potato_boy.png" class="boy" />ㄋ
+    <img src="image/potato_boy.png" class="boy" />&nbsp;
 
     <div class="title">
       <p class="title-1">施心棠的個人網站</p>
-      <p class="title-2">目前版本: 0.9.0</p>
+      <p class="title-2">目前版本: 0.11.0</p>
       <p class="title-3">開發這個網站是因為 華江高中的自主學習計畫</p>
     </div>
 

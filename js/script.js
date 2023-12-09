@@ -16,8 +16,9 @@ function run() {
 const checkbox = document.getElementById("check");
 checkbox.addEventListener("change", function () {
   if (this.checked) {
-    document.querySelector(".nav-ul").style.display = "block";
+    document.querySelector(".nav-ul-mobile").style.display = "block";
+    console.log("Click");
   } else {
-    document.querySelector(".nav-ul").style.display = "none";
+    document.querySelector(".nav-ul-mobile").style.display = "none";
   }
 });
