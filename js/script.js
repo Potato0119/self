@@ -17,7 +17,6 @@ const checkbox = document.getElementById("check");
 checkbox.addEventListener("change", function () {
   if (this.checked) {
     document.querySelector(".nav-ul-mobile").style.display = "block";
-    console.log("Click");
   } else {
     document.querySelector(".nav-ul-mobile").style.display = "none";
   }
