@@ -21,3 +21,7 @@ checkbox.addEventListener("change", function () {
     document.querySelector(".nav-ul-mobile").style.display = "none";
   }
 });
+function closenav() {
+  checkbox.checked = false;
+  document.querySelector(".nav-ul-mobile").style.display = "none";
+}
