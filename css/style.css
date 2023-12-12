@@ -444,9 +444,9 @@ body {
     order: -1;
   }
   .web-right div {
+    margin-left: 20px;
     float: left;
     text-align: left;
-    margin-left: 20px;
   }
   /* 第三部分 */
 }
