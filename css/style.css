@@ -224,6 +224,7 @@ body {
   left: 5vw;
   color: #daf6ff;
   text-shadow: 0 0 20px #0aafe6;
+  visibility: visible;
 }
 #time {
   letter-spacing: 0.05em;
@@ -400,9 +401,19 @@ body {
     margin-right: auto;
   }
   .clock {
-    bottom: 80px;
-    left: 0vw;
+    visibility: hidden;
+  }
+  .title-1 {
+    font-size: 10vw;
+    display: block;
+    padding-bottom: 10px;
+  }
+  .title-2 {
+    font-size: 8vw;
+  }
+  .title-3 {
+    font-size: 4vw;
   }
 }
 
-/* RWD   補 動畫柱那邊的文字 手機板應改成使用vh 不然會與行星男孩相衝*/
+/* RWD */
