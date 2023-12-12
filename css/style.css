@@ -349,12 +349,16 @@ body {
   visibility: visible; /* 木星預設顯示 */
 }
 @media screen and (max-width: 1199px) {
+  /* nav */
   .nav-mobile {
     display: block;
   }
   .nav-pc {
     display: none;
   }
+  /* nav */
+
+  /* 第一部分 */
   .title-image {
     visibility: hidden; /* 木星RWD隱藏 */
   }
@@ -414,6 +418,36 @@ body {
   .title-3 {
     font-size: 4vw;
   }
+  /* 第一部分 */
+
+  /* 第二部分 */
+  /* 第二部分 */
+
+  /* 第三部分 */
+  .abweb div {
+    display: flex;
+    font-size: 5vw;
+    color: #effaf2;
+    text-shadow: 0 0 20px #0ae6af;
+    flex-direction: column;
+  }
+  .abweb-p-title {
+    display: flex;
+    font-size: 10vw;
+    color: #cadcff;
+    text-shadow: 0 0 20px #0aafe6;
+  }
+  .abweb div p {
+    display: flex;
+  }
+  .rwd-right {
+    order: -1;
+  }
+  .web-right div {
+    float: left;
+    text-align: left;
+  }
+  /* 第三部分 */
 }
 
 /* RWD */
