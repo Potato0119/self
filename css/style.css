@@ -406,6 +406,7 @@ body {
   }
   .clock {
     visibility: hidden;
+    display: none;
   }
   .title-1 {
     font-size: 10vw;
@@ -421,6 +422,26 @@ body {
   /* 第一部分 */
 
   /* 第二部分 */
+  .aboutdiv {
+    width: 85vw;
+    height: 85vh;
+    box-shadow: 0 0 35px 0 #ccc;
+  }
+  .about-span1 {
+    margin-top: -10vh;
+  }
+  .about-span1 img:hover {
+    transform: scale(1);
+  }
+  .about-span1 p {
+    font-size: 11vw;
+  }
+  .about-span2 p {
+    font-size: 6vw;
+  }
+  .about-game {
+    display: block;
+  }
   /* 第二部分 */
 
   /* 第三部分 */
