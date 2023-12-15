@@ -216,24 +216,51 @@ body {
   transition: height 200ms ease-in-out;
   transition: width 200ms ease-in-out;
 }
-.clock {
-  font-family: "Share Tech Mono", monospace;
-  text-align: center;
+.gotopro {
+  display: inline-block;
   position: absolute;
-  bottom: 150px;
-  left: 5vw;
-  color: #daf6ff;
-  text-shadow: 0 0 20px #0aafe6;
-  visibility: visible;
+  bottom: 30vh;
+  left: 250px;
+  transform: scale(0);
+  transition: transform 300ms ease-in-out;
 }
-#time {
-  letter-spacing: 0.05em;
-  font-size: 80px;
-  padding: 5px 0;
+.gotopro p {
+  display: inline-block;
+  color: white;
+  font-size: 1.5vw;
 }
-#date {
-  letter-spacing: 0.1em;
-  font-size: 24px;
+.goto {
+  display: inline-block;
+  margin-left: 10px;
+  background-color: #008aff;
+  border-radius: 50px;
+  box-sizing: border-box;
+  color: #ffffff;
+  height: 50px;
+  width: 180px;
+  font-size: 1.5vw;
+  font-weight: bold;
+  padding: 4px;
+  text-decoration: none;
+}
+
+.goto .goto-span {
+  background: #1e1e1e;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  transition: background 0.5s ease;
+}
+
+.goto:hover .goto-span {
+  background: transparent;
+}
+
+.goto:hover {
+  box-shadow: 0 0 35px 0 #008aff;
 }
 /* 第一畫面(主畫面) */
 

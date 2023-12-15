@@ -10,6 +10,12 @@ function run() {
   setTimeout(() => {
     document.querySelector(".mainp").style = "left: 0px;";
   }, 1500);
+  setTimeout(() => {
+    document.querySelector(".gotopro").style = "transform: scale(1.5);";
+  }, 2000);
+  setTimeout(() => {
+    document.querySelector(".gotopro").style = "transform: scale(1);";
+  }, 2300);
 }
 
 // 手機選單開關

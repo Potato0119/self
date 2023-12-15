@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/project.css" />
+    <link
+      data-default-icon="../image/icon.png"
+      data-badged-icon="../image/icon.png"
+      rel="shortcut icon"
+      href="../image/icon.png"
+    />
+    <title>作品集|施心棠的個人網站</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body id="home" onload="run()">
+    <!-- header -->
+    <nav class="nav-pc">
+      <img class="img" src="../image/header.png" />
+      <ul class="nav-ul">
+        <li><a href="../index.html">首頁</a></li>
+        <li><a href="">程式</a></li>
+        <li><a href="">攝影</a></li>
+        <li><a href="">其他</a></li>
+      </ul>
+    </nav>
+
+    <nav class="nav-mobile">
+      <img class="img2" src="../image/header.png" />
+      <input type="checkbox" style="display: none" class="check" id="check" />
+      <label for="check">
+        <i class="fa-solid fa-bars fa-2xl menuicon"></i>
+      </label>
+      <ul class="nav-ul-mobile">
+        <li><a onclick="closenav()" href="../index.html">首頁</a></li>
+        <li><a onclick="closenav()" href="">程式</a></li>
+        <li><a onclick="closenav()" href="">攝影</a></li>
+        <li><a onclick="closenav()" href="">其他</a></li>
+      </ul>
+    </nav>
+    <!-- header -->
+
+    <div class="code big_model">
+      <p class="big_model_title">程式</p>
+      <div class="big_model_line"></div>
+      <div class="model">
+        <div class="project">Projetct-1</div>
+        <div class="project">Projetct-2</div>
+        <div class="project">Projetct-3</div>
+        <div class="project">Projetct-4</div>
+        <div class="project">Projetct-5</div>
+        <div class="project">Projetct-6</div>
+      </div>
+    </div>
+    <div class="photo big_model">
+      <p class="big_model_title">攝影</p>
+      <div class="big_model_line"></div>
+      <div class="model">
+        <div class="project">Projetct-1</div>
+        <div class="project">Projetct-2</div>
+        <div class="project">Projetct-3</div>
+        <div class="project">Projetct-4</div>
+        <div class="project">Projetct-5</div>
+        <div class="project">Projetct-6</div>
+      </div>
+    </div>
+    <div class="other big_model">
+      <p class="big_model_title">其他</p>
+      <div class="big_model_line"></div>
+      <div class="model">
+        <div class="project">Projetct-1</div>
+        <div class="project">Projetct-2</div>
+        <div class="project">Projetct-3</div>
+        <div class="project">Projetct-4</div>
+        <div class="project">Projetct-5</div>
+        <div class="project">Projetct-6</div>
+      </div>
+    </div>
+
+    <!-- Java Script -->
+    <script src="../js/script.js"></script>
+    <!-- Java Script -->
+  </body>
+</html>
