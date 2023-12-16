@@ -152,6 +152,7 @@ body {
   margin-right: auto;
   border: #000 0px solid;
   border-radius: 50px;
+  text-align: center;
 }
 /* RWD */
 @media screen and (max-width: 1199px) {
