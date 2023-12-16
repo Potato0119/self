@@ -20,15 +20,15 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body onload="run()">
+  <body id="home" onload="run()">
     <!-- header -->
     <nav class="nav-pc">
       <img class="img" src="../image/header.png" />
       <ul class="nav-ul">
         <li><a href="../index.html">首頁</a></li>
-        <li><a href="">程式</a></li>
-        <li><a href="">攝影</a></li>
-        <li><a href="">其他</a></li>
+        <li><a href="#home">程式</a></li>
+        <li><a href="#video">影片</a></li>
+        <li><a href="#other">其他</a></li>
       </ul>
     </nav>
 
@@ -40,9 +40,9 @@
       </label>
       <ul class="nav-ul-mobile">
         <li><a onclick="closenav()" href="../index.html">首頁</a></li>
-        <li><a onclick="closenav()" href="">程式</a></li>
-        <li><a onclick="closenav()" href="">攝影</a></li>
-        <li><a onclick="closenav()" href="">其他</a></li>
+        <li><a onclick="closenav()" href="#home">程式</a></li>
+        <li><a onclick="closenav()" href="#video">影片</a></li>
+        <li><a onclick="closenav()" href="#other">其他</a></li>
       </ul>
     </nav>
     <!-- header -->
@@ -51,27 +51,59 @@
       <p class="big_model_title">程式</p>
       <div class="big_model_line"></div>
       <div class="model">
-        <div class="project">Unknown<br />Project</div>
-        <div class="project">Unknown<br />Project</div>
+        <div class="project">
+          <a href="./1A2B.zip" download>
+            <img src="../image/project/ab.png" />
+            <p>1A2B</p>
+          </a>
+        </div>
+        <div class="project">
+          <a target="_blank" href="https://potato0119.github.io/ts/">
+            <img
+              src="https://raw.githubusercontent.com/Potato0119/ts/main/icon.png"
+            />
+            <p>廢話機器人</p>
+          </a>
+        </div>
         <div class="project">Unknown<br />Project</div>
         <div class="project">Unknown<br />Project</div>
         <div class="project">Unknown<br />Project</div>
         <div class="project">Unknown<br />Project</div>
       </div>
     </div>
-    <div class="photo big_model">
-      <p class="big_model_title">攝影</p>
+    <div id="video" class="photo big_model">
+      <p class="big_model_title">影片</p>
       <div class="big_model_line"></div>
       <div class="model">
-        <div class="project">Unknown<br />Project</div>
-        <div class="project">Unknown<br />Project</div>
-        <div class="project">Unknown<br />Project</div>
-        <div class="project">Unknown<br />Project</div>
+        <div class="project">
+          <a target="_blank" href="https://www.instagram.com/reel/Cs-57kCOqV2/">
+            <img class="circle" src="../image/project/media1.png" />
+            <p>小帥的冒險-1</p>
+          </a>
+        </div>
+        <div class="project">
+          <a target="_blank" href="https://www.instagram.com/reel/Cs_a2gZsAYp/">
+            <img class="circle" src="../image/project/media1.png" />
+            <p>小帥的冒險-2</p>
+          </a>
+        </div>
+        <div class="project">
+          <a target="_blank" href="https://www.instagram.com/reel/CtBE1KsOUOi/">
+            <img class="circle" src="../image/project/media1.png" />
+            <p>小帥的冒險-3</p>
+          </a>
+        </div>
+        <div class="project">
+          <a target="_blank" href="https://www.instagram.com/reel/CvNfQucMTB-/">
+            <img class="circle" src="../image/project/media2.png" />
+            <p>大壯的回憶</p>
+          </a>
+        </div>
         <div class="project">Unknown<br />Project</div>
         <div class="project">Unknown<br />Project</div>
       </div>
     </div>
-    <div class="other big_model">
+    <div id="other" class="other big_model">
       <p class="big_model_title">其他</p>
       <div class="big_model_line"></div>
       <div class="model">

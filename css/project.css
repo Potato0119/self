@@ -144,6 +144,7 @@ body {
   background-color: #9f9f9f;
   font-size: 24px;
   display: flex;
+  flex-wrap: wrap;
   height: 300px;
   align-items: center;
   justify-content: center;
@@ -153,6 +154,27 @@ body {
   border: #000 0px solid;
   border-radius: 50px;
   text-align: center;
+}
+.project a {
+  color: white;
+  text-decoration: none;
+}
+.project img {
+  width: 220px;
+  height: 220px;
+  transition: transform 200ms ease-in-out;
+}
+.project img:hover {
+  transform: scale(1.05);
+}
+.project p {
+  margin-top: 10px;
+  width: 220px;
+  height: 30px;
+}
+.circle {
+  border: #000 0px solid;
+  border-radius: 200px;
 }
 /* RWD */
 @media screen and (max-width: 1199px) {
