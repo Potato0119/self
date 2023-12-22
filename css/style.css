@@ -368,6 +368,33 @@ body {
 }
 /* 第三畫面(關於網站) */
 
+/*  第四畫面(影片) */
+.video {
+  position: absolute;
+  top: 300%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.v-header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0 20px #fff;
+  font-size: 30px;
+  color: #eee;
+}
+.video iframe {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 50vw;
+  height: calc(50vw / 16 * 9);
+}
+/*  第四畫面(影片) */
 /* RWD */
 .title-image {
   visibility: visible; /* 木星預設顯示 */
@@ -505,6 +532,13 @@ body {
     text-align: left;
   }
   /* 第三部分 */
+
+  /* 第四部分 */
+  .video iframe {
+    width: 100vw;
+    height: calc(100vw / 16 * 9);
+  }
+  /* 第四部分 */
 }
 
 /* RWD */
