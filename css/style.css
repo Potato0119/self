@@ -394,6 +394,37 @@ body {
   width: 50vw;
   height: calc(50vw / 16 * 9);
 }
+
+.video-github {
+  position: absolute;
+  width: 15vw;
+  height: 3vw;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border: 0.2vw solid #fff;
+  border-radius: 10000px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  transform: translate(-50%, 0%);
+  left: 50%;
+  bottom: 10vh;
+}
+.video-github img {
+  display: flex;
+  width: 3vw;
+  width: 3vw;
+}
+.video-github p {
+  display: flex;
+  font-size: 1.5vw;
+  margin-left: 0.5vw;
+}
+.video-github:hover {
+  background-color: #282828;
+  color: #fff;
+}
 /*  第四畫面(影片) */
 /* RWD */
 .title-image {
@@ -537,6 +568,31 @@ body {
   .video iframe {
     width: 100vw;
     height: calc(100vw / 16 * 9);
+  }
+  .video-github {
+    position: absolute;
+    width: 50vw;
+    height: 10vw;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border: 0.2vw solid #fff;
+
+    border-radius: 10000px;
+    font-weight: bold;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    bottom: 10vh;
+  }
+  .video-github img {
+    display: flex;
+    width: 10vw;
+    width: 10vw;
+  }
+  .video-github p {
+    display: flex;
+    font-size: 5vw;
+    margin-left: 2.5vw;
   }
   /* 第四部分 */
 }
